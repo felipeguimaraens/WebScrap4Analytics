@@ -24,13 +24,3 @@ for word in content:
 data = pd.DataFrame(new_list)
 data = data.value_counts()
 print(data)
-
-
-#content = re.sub('[^A-Za-z0-9]+', '', content)
-
-#print(word_list)
-
-# text = response.text
-# SAVE FILE
-#with open('page.html', 'w', encoding='utf-8') as file:
-#   file.write(text)
